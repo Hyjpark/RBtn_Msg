@@ -86,7 +86,6 @@
             this.rbOkCancel.TabStop = true;
             this.rbOkCancel.Text = "OkCancel";
             this.rbOkCancel.UseVisualStyleBackColor = true;
-            this.rbOkCancel.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // rbYesNo
             // 
@@ -140,6 +139,7 @@
             this.btnShow.TabIndex = 2;
             this.btnShow.Text = "Show";
             this.btnShow.UseVisualStyleBackColor = true;
+            this.btnShow.Click += new System.EventHandler(this.btnShow_Click);
             // 
             // Form1
             // 
@@ -153,7 +153,6 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "메시지 박스 보기";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.gpOption1.ResumeLayout(false);
             this.gpOption1.PerformLayout();
             this.gpOprioin2.ResumeLayout(false);
